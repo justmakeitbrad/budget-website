@@ -1,0 +1,55 @@
+
+footer {
+    bottom: 0;
+}
+
+/*
+footer {
+    position: fixed;
+    bottom: 0;
+    border: 1px solid black;
+    width: ;
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    text-align: center;
+}
+    Makes footer one box with days side by side
+*/
+
+/*
+.dailybudget {
+    border-style: solid;
+    border-color: black;
+    border-radius: 0% 0% 10% 10%;
+    width: fit-content;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+*/
+.flex-container {
+    display: flex;
+    flex: auto;
+}
+
+.flex-container div {
+    flex: auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0% 0% 20% 20%;
+    padding: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    width: fit-content;
+    
+    white-space: nowrap;   
+    
+}
+
